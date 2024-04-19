@@ -1,5 +1,10 @@
 .products {
+  padding-top: 34px;
   .product__content {
+    h1 {
+      padding: 10px 0;
+      font-family: sans-serif;
+    }
     .loading {
       display: flex;
       align-items: center;

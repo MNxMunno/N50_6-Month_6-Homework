@@ -40,6 +40,7 @@ const Products = () => {
     <section className="products">
       <div className="container">
         <div className="product__content">
+          <h1>Popular Products</h1>
           {loading ? (
             <div className="loading">
               <img src={loadingImg} alt="loading" />
