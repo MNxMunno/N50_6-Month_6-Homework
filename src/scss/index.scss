@@ -22,3 +22,8 @@ button {
   border: 0;
   background: transparent;
 }
+
+@import "../scss/components/header.scss";
+@import "../scss/components/footer.scss";
+@import "../scss/components/main.scss";
+@import "../scss/components/products.scss";
