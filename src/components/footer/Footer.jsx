@@ -34,7 +34,11 @@ const Footer = () => {
         <div className="footer__content">
           <div className="cards">
             <div className="card">
-              <img src={logo} alt="" />
+              <img className="logo" src={logo} alt="logo" />
+              <p className="text">
+                FoodTrove is the biggest market of grocery products. Get your
+                daily needs from our store.
+              </p>
             </div>
             <div className="card cardOne">
               <h1>Company</h1>
