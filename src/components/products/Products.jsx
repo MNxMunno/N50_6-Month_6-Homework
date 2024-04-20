@@ -17,7 +17,7 @@ const Products = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  let card = data?.map((pro) => (
+  let card = data?.slice(0, 12).map((pro) => (
     <div className="card" key={pro.id}>
       <div className="img">
         <img src={pro.thumbnail} alt="img" />
